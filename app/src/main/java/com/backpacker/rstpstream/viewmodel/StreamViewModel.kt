@@ -32,7 +32,7 @@ class StreamViewModel : ViewModel() {
         }
         _streamState.value = StreamState.Loading
 
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch() {
             try {
                 val mediaItem = ExoPlayerHelper.createMediaItem(Uri.parse(url))
                 val mediaSource = ExoPlayerHelper.createRtspMediaSource(mediaItem)
