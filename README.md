@@ -1,9 +1,6 @@
 # 📡 RTSP Stream Player - Android App  
 A high-performance **RTSP streaming app** using **ExoPlayer** with **low-latency optimizations** for a smooth viewing experience.  
 
-## 🎥 Demo  
-[![Watch the Demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_LINK_HERE)  
-
 ---
 
 ## 🚀 Features  
